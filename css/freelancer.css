@@ -69,7 +69,11 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background-image: url('../img/photo1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: 50% 40%;
   color: white;
 }
 header .container {
@@ -184,7 +188,8 @@ section {
 section h2 {
   margin: 0;
   font-size: 3em;
-}
+} 
+
 section.success {
   background: #18BC9C;
   color: white;
